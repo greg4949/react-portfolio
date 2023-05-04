@@ -1,0 +1,246 @@
+html {
+    /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+    font-size: 62.5%;
+  }
+  
+
+/*sets default background for body of page*/
+body {
+    background-color: #d9dcd6;
+}
+
+main{
+    height: max-content;
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:20px;
+    justify-content: space-between;
+    width:100%;
+
+}
+
+/*formats header element of page*/
+header{
+    background-color: rgb(72, 72, 187);
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+/*formats h1 header*/
+ h1 {
+   
+    font-size: 4rem;
+    
+}
+
+/*default format for figures on the page*/
+figure {
+    padding: 20px;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+ 
+/*adjust width of figures in work section of page except very top figure*/
+.project-figures {
+    width:50%;
+}
+
+/*format figure captions*/
+figcaption {
+    color: black;
+    font-weight: bold;
+    word-wrap: break-word;
+    line-height: 1.3;
+    text-align: center;
+}
+
+img {
+    padding: 20px
+   
+}
+
+/*formats the headings of each section showing on the side to only use the shown percent of the page width*/
+.sidebar {
+    width: 20%;
+    border-right: 3px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+/*format navigation links*/
+ nav {
+
+    padding: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: inline;
+    color: white;
+  
+ 
+}
+/*format nav links to not have a list style type*/
+ nav ul {
+    list-style-type: none;
+}
+
+/*format list of links to be in a row*/
+ nav ul li{
+    display: inline;
+    margin-left: 25px
+}
+
+/*formats links in contact section of page*/
+ .contact {
+    color: black;
+ }
+
+/*formats hyperlink font to color shown and displays hyperlink without a line*/
+a {
+    color:white;
+    text-decoration: none;
+}
+
+/*formats about me paragraph*/
+p {
+    width: 80%; 
+    float:right;
+      padding:20px;
+      word-wrap: break-word;
+      font-size: 2rem;
+      font-weight: 200;
+}
+button {
+    border: none: 10px;
+}
+
+/*format header figcaption font color*/
+.header-caption {
+    color: white;
+}
+
+/*formats work section of page*/
+.work {
+    width:80%;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+/*highlight images of projects upon hover*/
+.work img:hover {
+    opacity:.75;
+}
+
+
+
+/*formats main project container as flexbox and centers the content in the middle of the container*/
+.main-project{
+    display: flex;
+    justify-content: center;
+}
+
+/*formats the size of the main project image*/
+.main-project-img {
+    width: 100%;    
+    
+}
+
+.main-project figure {
+    width: 100%;
+}
+/*formats size of all project images except main project image*/
+.project-img {
+   width: 100%;
+   height 281px;
+}
+
+/*formats all project containers except first project*/
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*formats the link to each of the individual projects*/
+.project-link {padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+   
+/* media query for tablet and smaller screens to adjust formatting for smaller screens*/
+@media screen and (max-width: 992px) {
+   
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+    }
+
+    header {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1 {
+        border-style: none none solid none;
+       
+    }
+
+    .sidebar {
+        height: initial;
+        text-align: center;
+        border: none
+       
+    }
+ 
+    .project-figures {
+        width: 100%;
+    }
+    
+  }
+  
+  
