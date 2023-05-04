@@ -3,22 +3,44 @@ import React from 'react';
 export default function Projects() {
   return (
     <div>
-      <h1>Projects Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h1 style={{textAlign: "center"}}>My Projects</h1>
+
+      <div class="work" id="work">                        
+                        <div class="main-project">       
+                            <figure class="project-figures">
+                                <a class="project-link" href="https://greg4949.github.io/challenge-week-1/#search-engine-optimization">
+                                    <img class ="main-project-img" src="./assets/images/landingpage.jpg" alt="landing page example"/>                                
+                                    <figcaption>Landing Page</figcaption>
+                                </a>                               
+                            </figure>
+                        </div>                    
+                        <div class="projects">                            
+                            <figure class="project-figures">
+                                <a class="project-link" href="https://kerby00.github.io/rainy-day/">
+                                    <img class="project-img" src="./assets/images/rainy-day-app.jpg" alt="semi truck"/>
+                                    <figcaption>Rainy Day Kid Activities and Jokes</figcaption>
+                                </a>
+                            </figure>
+                            <figure class="project-figures">
+                                <a class="project-link" href="https://typeninja.herokuapp.com">
+                                    <img class="project-img" src="./assets/images/typeninja.jpg" alt="time machine"/>
+                                    <figcaption>TypeNinja Typing Game </figcaption>
+                                </a>
+                            </figure>
+                            <figure class="project-figures">
+                                <a class="project-link" href="./placeholder.html">
+                                    <img class="project-img" src="./assets/images/calendar.png" alt="calendar"/>
+                                    <figcaption>Appointment Scheduler</figcaption>
+                                </a>
+                            </figure>
+                            <figure class="project-figures">
+                                <a class="project-link" href="./placeholder.html">
+                                    <img class="project-img" src="./assets/images/repair.jpg" alt="hands of mechanic repairing car"/>
+                                    <figcaption>Car Repair Tracker</figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
     </div>
   );
 }

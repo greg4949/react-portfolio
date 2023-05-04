@@ -3,14 +3,13 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 style={{textAlign: "center"}}>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I am a finance and accounting professional with over 20 years experience.
+        I am proficient in using T-sql to extract and analyze data from SQL Server databases.
+        I recently completed a 6 month certificate program through the University of Utah in full stack development
+        which has given me additional capability to interact with APIs and create interactive web applications
+        using a finance and accounting perspective
       </p>
     </div>
   );
