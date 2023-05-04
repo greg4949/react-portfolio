@@ -6,7 +6,7 @@ React portfolio of work samples
 
 ## URL to Portfolio
 
-https://github.com/greg4949/react-portfolio
+https://greg4949.github.io/react-portfolio/
 
 ## Description
 
