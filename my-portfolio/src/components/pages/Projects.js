@@ -28,8 +28,8 @@ export default function Projects() {
                                 </a>
                             </figure>
                             <figure class="project-figures">
-                                <a class="project-link" href="./placeholder.html">
-                                    <img class="project-img" src="./assets/images/calendar.png" alt="calendar"/>
+                                <a class="project-link" href="https://infinite-meadow-71565.herokuapp.com/login">
+                                    <img class="project-img" src="./assets/images/semi-snitch.png" alt="semi-truck app"/>
                                     <figcaption>Appointment Scheduler</figcaption>
                                 </a>
                             </figure>
