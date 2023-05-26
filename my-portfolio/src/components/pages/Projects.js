@@ -30,7 +30,7 @@ export default function Projects() {
                             <figure class="project-figures">
                                 <a class="project-link" href="https://infinite-meadow-71565.herokuapp.com/login">
                                     <img class="project-img" src="./assets/images/semi-snitch.png" alt="semi-truck app"/>
-                                    <figcaption>Appointment Scheduler</figcaption>
+                                    <figcaption>Semi-Truck Idle Tracker</figcaption>
                                 </a>
                             </figure>
                             <figure class="project-figures">
