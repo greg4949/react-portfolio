@@ -28,9 +28,9 @@ export default function Projects() {
                                 </a>
                             </figure>
                             <figure class="project-figures">
-                                <a class="project-link" href="./placeholder.html">
-                                    <img class="project-img" src="./assets/images/calendar.png" alt="calendar"/>
-                                    <figcaption>Appointment Scheduler</figcaption>
+                                <a class="project-link" href="https://infinite-meadow-71565.herokuapp.com/">
+                                    <img class="project-img" src="./assets/images/semi-snitch.png" alt="semi truck idle event tracker"/>
+                                    <figcaption>Semi-Truck Idle Event Tracker</figcaption>
                                 </a>
                             </figure>
                             <figure class="project-figures">
